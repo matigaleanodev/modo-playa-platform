@@ -1,0 +1,5 @@
+flowchart LR
+  Public["modo-playa-app\nPublic catalog"] --> API["modo-playa-api\nNestJS backend"]
+  Admin["modo-playa-admin\nAdmin panel"] --> API
+  API --> DB["MongoDB"]
+  API --> R2["Cloudflare R2"]

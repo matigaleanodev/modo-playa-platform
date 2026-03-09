@@ -1,0 +1,21 @@
+flowchart TD
+  subgraph Clients
+    Public["Public catalog frontend"]
+    Admin["Admin frontend"]
+  end
+
+  subgraph Backend
+    API["NestJS API container"]
+    DB["MongoDB"]
+    Media["Image processing"]
+  end
+
+  subgraph Storage
+    R2["Cloudflare R2"]
+  end
+
+  Public --> API
+  Admin --> API
+  API --> DB
+  API --> Media
+  Media --> R2

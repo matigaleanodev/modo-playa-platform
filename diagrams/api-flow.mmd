@@ -1,0 +1,12 @@
+sequenceDiagram
+  participant P as Public/Admin App
+  participant A as API
+  participant D as MongoDB
+  participant R as R2
+
+  P->>A: Request public or private resource
+  A->>D: Validate tenant-scoped data
+  A-->>P: Return business response
+  P->>A: Upload media request
+  A->>R: Store normalized asset
+  A-->>P: Return asset reference
