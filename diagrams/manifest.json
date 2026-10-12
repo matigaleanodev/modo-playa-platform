@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "modo-playa-ecosystem",
+    "title": "Modo Playa: catálogo, administración y servicios",
+    "type": "architecture",
+    "source": "modo-playa-ecosystem.architecture.json",
+    "artifact": "rendered/modo-playa-ecosystem.html",
+    "specificationSha256": "5a048ca8022d199e7fa074f5f9cc6b0763c6e17661a70aec0b720872df80ac32",
+    "artifactSha256": "61f1cf96e400dd9cac26a8ca714c9deb8765f4480ddd95f65a9668951794e482",
+    "preview": "modo-playa-ecosystem.61f1cf96e400.png",
+    "previewSha256": "a4ab95efa865aa43ad6cb9f67685fb258a133f216aa601cf604ee1d72215a983",
+    "validation": {
+      "checksPassed": 9,
+      "checkCount": 9,
+      "compositionProfile": "showcase",
+      "compositionStatus": "pass",
+      "errors": 0,
+      "warnings": 0
+    },
+    "browserEvidence": "pass",
+    "visualReview": "not-requested",
+    "repository": {
+      "url": "https://github.com/matigaleanodev/modo-playa-api.git",
+      "revision": "c25b9cc6f3fd9ce82d541f78be186b3a7832800b"
+    }
+  }
+]
