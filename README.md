@@ -32,18 +32,12 @@ The public app, admin panel, and backend solve different problems. This repo mak
 
 ## Architecture
 
-```mermaid
-flowchart LR
-  User --> PublicApp[modo-playa-app]
-  AdminUser --> Admin[modo-playa-admin]
-  PublicApp --> API[modo-playa-api]
-  Admin --> API
-  API --> DB[(MongoDB)]
-  API --> R2[Cloudflare R2]
-```
+[![Architecture / Arquitectura](diagrams/rendered/modo-playa-ecosystem.61f1cf96e400.png)](https://matiasgaleano.dev/diagrams/modo-playa-ecosystem.html)
 
 ## Docs
 
 - [Overview](docs/01-overview.md)
 - [Architecture](docs/02-architecture.md)
 - [Roadmap](docs/03-roadmap.md)
+
+[Sources and maintenance](diagrams/README.md) · [Evidence](docs/04-evidence.md)
