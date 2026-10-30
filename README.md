@@ -38,6 +38,5 @@ The public app, admin panel, and backend solve different problems. This repo mak
 
 - [Overview](docs/01-overview.md)
 - [Architecture](docs/02-architecture.md)
-- [Roadmap](docs/03-roadmap.md)
 
-[Sources and maintenance](diagrams/README.md) · [Evidence](docs/04-evidence.md)
+[Sources and maintenance](diagrams/README.md) · [Sources](docs/04-evidence.md)

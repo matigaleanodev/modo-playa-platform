@@ -38,6 +38,5 @@ La app pública, el panel admin y el backend resuelven problemas distintos. Este
 
 - [Overview](docs/01-overview.es.md)
 - [Architecture](docs/02-architecture.es.md)
-- [Roadmap](docs/03-roadmap.es.md)
 
-[Fuentes y mantenimiento](diagrams/README.es.md) · [Evidencia](docs/04-evidence.es.md)
+[Fuentes y mantenimiento](diagrams/README.es.md) · [Fuentes](docs/04-evidence.es.md)
