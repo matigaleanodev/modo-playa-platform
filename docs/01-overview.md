@@ -10,6 +10,6 @@ Modo Playa Platform documents a lodging product spanning three repositories; it 
 
 Both clients consume the API. The admin already adopted backend-only multipart uploads, domain error codes and explicit support ownership. Public lodging visibility supports legacy documents without the visibility field. Destination context includes curated points of interest, cached weather and sun data.
 
-The API deployment moved to GHCR images by SHA and OIDC/SSM on shared EC2. Remaining work concentrates on support-flow validation, upload states and legacy naming rather than inventing new backend contracts. [Architecture](02-architecture.md), [roadmap](03-roadmap.md), [evidence](04-evidence.md).
+The API deployment moved to GHCR images by SHA and OIDC/SSM on shared EC2. Remaining work concentrates on support-flow validation, upload states and legacy naming rather than inventing new backend contracts. [Architecture](02-architecture.md), [evidence](04-evidence.md).
 
 [Español](01-overview.es.md).
