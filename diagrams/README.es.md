@@ -1,11 +1,9 @@
-# Fuentes de diagramas
+# Fuentes del diagrama
 
-La vista Archify validada reemplaza system.mmd, api-flow.mmd y deployment.mmd. Los detalles de peticiones y despliegue están en [arquitectura](../docs/02-architecture.es.md).
+[English](README.md)
 
-El JSON es la especificación editable; rendered/ contiene el visor HTML autónomo y la vista previa PNG; manifest.json conserva la validación original y los comprobantes SHA-256; LICENSE.txt mantiene la atribución MIT de Archify.
+[JSON editable](modo-playa-ecosystem.architecture.json) · [Vista previa PNG](rendered/modo-playa-ecosystem.png) · [Visor HTML](rendered/modo-playa-ecosystem.html)
 
-La vista previa del README abre el visor publicado. GitHub muestra el HTML como código: descargarlo para abrirlo localmente. Se conservan las etiquetas en español en ambas versiones del README.
+GitHub muestra el HTML como código. Descargalo para abrir el visor en el navegador. El diagrama usa términos en español y acompaña ambos idiomas del README.
 
-Fuente canónica: [portfolio/content/diagrams](https://github.com/matigaleanodev/portfolio/tree/34856adee211f57ddb32a8573b9af9578d73235b/content/diagrams). Regenerar allí y copiar JSON, HTML, PNG y comprobante juntos; no editar los renderizados por separado. No se agrega una dependencia de build. Es una captura revisada, no una auditoría del host en vivo. El visor publicado puede avanzar por separado.
-
-[English](README.md).
+Para actualizarlo, regenerá el HTML y el PNG desde el JSON y verificá que sus relaciones coincidan con las [fuentes técnicas](../docs/04-evidence.es.md).

@@ -10,7 +10,7 @@ Si existe un workspace con AGENTS.md en los directorios padre, leerlo explícita
 - README presenta límites y repositorios participantes; docs/ desarrolla overview y arquitectura.
 - diagrams/ contiene material visual y referencias a sus fuentes.
 - Confirmar contratos en los repositorios de implementación antes de cambiar relaciones.
-- El sitio portfolio mantiene las fuentes de diagramas del ecosistema.
+- La especificación del diagrama enlazado en el README vive en diagrams/.
 - Conservar nombres de componentes y límites de ownership coherentes con código.
 
 ## Edición y verificación

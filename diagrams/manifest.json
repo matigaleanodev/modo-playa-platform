@@ -1,27 +1,17 @@
 [
   {
     "slug": "modo-playa-ecosystem",
-    "title": "Modo Playa: catálogo, administración y servicios",
+    "title": "Modo Playa · catálogo, administración e imágenes",
     "type": "architecture",
     "source": "modo-playa-ecosystem.architecture.json",
     "artifact": "rendered/modo-playa-ecosystem.html",
-    "specificationSha256": "5a048ca8022d199e7fa074f5f9cc6b0763c6e17661a70aec0b720872df80ac32",
-    "artifactSha256": "61f1cf96e400dd9cac26a8ca714c9deb8765f4480ddd95f65a9668951794e482",
-    "preview": "modo-playa-ecosystem.61f1cf96e400.png",
-    "previewSha256": "a4ab95efa865aa43ad6cb9f67685fb258a133f216aa601cf604ee1d72215a983",
-    "validation": {
-      "checksPassed": 9,
-      "checkCount": 9,
-      "compositionProfile": "showcase",
-      "compositionStatus": "pass",
-      "errors": 0,
-      "warnings": 0
-    },
-    "browserEvidence": "pass",
-    "visualReview": "not-requested",
+    "preview": "rendered/modo-playa-ecosystem.png",
+    "specificationSha256": "776fdaf662d6270c17e48b8c210b510cf5c4d5431f5b6665914dbf45a47c7c2d",
+    "artifactSha256": "5081eed69e22226eb2d8fe297b6f3eb7ba75da3a7f0496f2adc17a894e4749b3",
+    "previewSha256": "2e0e420ea47983a54ee951bf17b65d8019a6f38e57f707b80a15ca7fdfc4a5a0",
     "repository": {
-      "url": "https://github.com/matigaleanodev/modo-playa-api.git",
-      "revision": "c25b9cc6f3fd9ce82d541f78be186b3a7832800b"
+      "url": "https://github.com/matigaleanodev/modo-playa-api-cloud.git",
+      "revision": "4cd19ee3eb91d04612b6234645feda98bab52bbf"
     }
   }
 ]
